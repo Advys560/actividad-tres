@@ -1,1 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1917;
+}
 
+.nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  margin: 0;
+  padding: 1rem 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #292524;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+
+  h2 {
+    margin: 0;
+    color: #f97316;
+  }
+
+  ul {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .hablemos {
+    justify-self: end;
+    border: 1px solid #f97316;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    color: #f97316;
+  }
+}
