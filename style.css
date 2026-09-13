@@ -143,7 +143,14 @@ body {
 
 /* Pie de página */
 .footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  min-height: 46px;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+  background-color: #0C0A09;
   color: #8C8D8B;
   border-top: 1px solid #292524;
   text-align: center;
