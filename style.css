@@ -42,3 +42,31 @@ body {
     color: #f97316;
   }
 }
+.hero {
+  width: 500px;
+  margin-left: 20rem;
+  padding: 0px;
+  margin-top: 5rem;
+  gap: 20px;
+  .img {
+    margin-top:0px;
+    padding: 0px;
+    border-radius: 5px;
+    height: 300px;
+    width: 500px    ;
+  }
+  h1 {
+    color: #8C8D8B;
+    font-size: 2rem;
+  }
+  p {
+    color: #8C8D8B;
+  }
+  a {
+    color: black;
+    background-color: #f97316;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+  }
+}
